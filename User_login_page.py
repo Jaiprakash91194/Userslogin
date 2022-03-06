@@ -105,5 +105,6 @@ def main():
 
 
 # load usernames directory to a variable
-usernames = load_usernames()
-main()
+if __name__ == "__main__":
+    main()
+    usernames = load_usernames()
